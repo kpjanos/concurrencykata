@@ -8,7 +8,8 @@ public class TestRunner {
         this.maxThreadCount = maxThreadCount;
     }
 
-    public void run(Runnable... testCases) {
-        //TODO execute tests and log both success and failure for each test case.
+    public void run(Class<?>... testClasses) {
+        //TODO get all methods from testClasses which are annotated with @TestCase and execute them.
+        //TODO log both success and failure for each test case (identify test cases with class and method name)
     }
 }

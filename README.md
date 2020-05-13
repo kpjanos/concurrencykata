@@ -3,6 +3,7 @@ Tasks
 - Implement 
   - kata.concurrency.testframework.api.Test
   - kata.concurrency.testframework.api.TestRunner.run
+  - kata.concurrency.testframework.api.TestCase
 - Add tests for the testframework api which demonstrates that concurrency is handled correctly.
 
 Keep methods which are provided.  
