@@ -16,3 +16,13 @@ It can be extended, changed for better testing but the testframework api shouldn
 Optional
 -------
 - Feel free to add some mocking for HTTP, e.g.: WireMock
+
+
+Application description
+---------
+The application aims to be a REST API test framework.
+It can used to write tests and run them.
+
+It provides a simple API for creating tests, classes from kata.concurrency.testframework.api package can be used by test implementation.
+The class kata.concurrency.tests.testcases.SampleTest is sample which demonstrates how the test implementation would look like.
+kata.concurrency.tests.SampleMain provides a sample how the test runner can be configured to run the tests.
